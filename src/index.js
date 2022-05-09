@@ -1,8 +1,3 @@
-//https://webpack.js.org/configuration/
+import { init } from "./js/upload_files/archivos-page";
 
-import { saludar } from './js/componentes';
-import './styles.css';
-
-const nombre = prompt("Cual es tu nombre", "Anonimo")
-
-saludar(nombre);
+init()
